@@ -1,5 +1,3 @@
-import javax.swing.JOptionPane;
-
 /*****************************************
 * New York Institute of Technology 
 * CSCI 125: Computer Programming 1  
@@ -10,7 +8,7 @@ import javax.swing.JOptionPane;
 * Purpose: Learn how to copy an array.    
 * November 21, 2017     Version 0.1
 *****************************************/
-
+import javax.swing.JOptionPane;
 public class Array_Copying 
 {
 	
@@ -20,9 +18,6 @@ public class Array_Copying
     	//Getting user input.
 		int[] array_1_elements = new int[5];
 		
-		//java.util.Scanner input = new java.util.Scanner(System.in);
-		//System.out.print("Enter " + number.length + " quiz grades: ");
-		//String input = JOptionPane.showInputDialog("Enter " + number.length + " quiz grades: ");
 		
 		for(int i = 0; i < array_1_elements.length; i++)
 		{
@@ -67,3 +62,4 @@ public class Array_Copying
     }
 
 }
+////////////////////////////////////////////////////////////////
